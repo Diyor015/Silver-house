@@ -1,0 +1,100 @@
+.title{
+    text-align:center ;
+    margin-top: 50px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    padding: 40px;
+    list-style: none;
+}
+.menu ul li a{
+    color: #bab9b9;
+    text-decoration: none;
+    transition: 1s;
+}
+.menu ul li a:hover {
+    color: #4581b7;
+}
+.header{
+    text-align: center;
+}
+.section{
+    width: 1151px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.section .left {
+    width: 720px;
+    background-color: #f0f0f0;
+    
+}
+.section .left h3{
+    padding-top: 50px;
+    padding-left: 40px;
+    color: #4581b7;
+    
+}
+.section .left .text{
+    padding-right: 95px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 68px;
+    color: #9d9d9d;
+}
+
+.section .right{
+    width: 350px;
+    background-color:#f0f0f0;
+}
+.section .right .contact{
+    padding-top: 50;
+    padding-left: 40px;
+    color: #4581b7;
+}
+.section .right .text2{
+    padding-left: 40px;
+    padding-right: 50px;
+    color: #9d9d9d;
+    padding-bottom: 48px;
+}
+.section .right .tel {
+    padding-bottom: 50px;
+    color: #9d9d9d;
+    padding-left: 40px;
+}
+
+.section .right .email{
+    color: #9d9d9d;
+    padding-left: 40px;
+}
+.about{
+    width: 1110px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+.about img{
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-right: 815px;
+}
+.about p{
+    color: #9d9d9d;
+    padding-left: 30px;
+}
+.about .sil{
+    width: 760px;
+}
+.about .pi{
+    width: 350px;
+}
